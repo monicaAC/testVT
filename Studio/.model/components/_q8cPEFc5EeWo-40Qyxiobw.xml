@@ -48,7 +48,8 @@
       <values uuid="N65819" name="NONE" editable="false" visibility="300"/>
     </domain>
   </roles>
-  <rulesVT uuid="_PdXiQKp9Eeapl8WeJFy_DQ" name="VT_Rule" checksum="81af476f9f2b6c6671b85b0fb7ea7c088df66fac" modelType="VT_SAP" language="EN">
+  <rulesVT uuid="_PdXiQKp9Eeapl8WeJFy_DQ" name="VT_Rule" checksum="81af476f9f2b6c6671b85b0fb7ea7c088df66fac" dirty="true" modelType="VT_SAP" language="SAP">
+    <facets xsi:type="appl:MOAOMessage" uuid="_sQcsEKp9Eeapl8WeJFy_DQ" description="File changed" severity="Error"/>
     <fileVT href="../../model.build#_WkRTgKp9Eeapl8WeJFy_DQ"/>
     <properties>VT type</properties>
     <properties>Build type</properties>
