@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_q8cPEFc5EeWo-40Qyxiobw" name="link_component" componentClass="LINK" displayName="Link Component">
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:appl="http://com.virtubuild/schemas/appl.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_q8cPEFc5EeWo-40Qyxiobw" name="link_component" componentClass="LINK" displayName="Link Component">
   <variables xsi:type="comp:DeclaredVariable" uuid="_YHRbsFdAEeWo-40Qyxiobw" name="height" visibility="800" initValue="50">
     <domain uuid="_YHRbsVdAEeWo-40Qyxiobw" name="local" visibility="300">
       <typeSet uuid="_GC9ixKTqEea8d6P1JTl01w" bitSet="10"/>
@@ -48,4 +48,606 @@
       <values uuid="N65819" name="NONE" editable="false" visibility="300"/>
     </domain>
   </roles>
+  <rulesVT uuid="_PdXiQKp9Eeapl8WeJFy_DQ" name="VT_Rule" checksum="81af476f9f2b6c6671b85b0fb7ea7c088df66fac" modelType="VT_SAP" language="EN">
+    <fileVT href="../../model.build#_WkRTgKp9Eeapl8WeJFy_DQ"/>
+    <properties>VT type</properties>
+    <properties>Build type</properties>
+    <properties>Domain</properties>
+    <properties>Required</properties>
+    <properties>Show</properties>
+    <properties>ReadOnly</properties>
+    <properties>DecimalPlace</properties>
+    <properties>NumberOfChars</properties>
+    <properties>Format</properties>
+    <properties>NegativeValuesAllowed</properties>
+    <properties>CaseSensitive</properties>
+    <properties>Restrictable</properties>
+    <properties>ReferenceField</properties>
+    <properties>ReferenceTable</properties>
+    <properties>SAP</properties>
+    <properties>DE</properties>
+    <properties>EN</properties>
+    <properties>ShowAs</properties>
+    <properties>DA</properties>
+    <currentVariables uuid="_bX_hMKp9Eeapl8WeJFy_DQ" name="INVISIBLE" inUse="NOT" alias="INVISIBLE">
+      <domain uuid="_bX_hMap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bX_hM6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+      <properties key="Required" value="false"/>
+      <properties key="Show" value="false"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="30"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="false"/>
+      <properties key="ReferenceField" value="INVISIBLE"/>
+      <properties key="ReferenceTable" value="SCREEN_DEP"/>
+      <properties key="SAP" value="INVISIBLE"/>
+      <properties key="DE" value="Merkmalname"/>
+      <properties key="EN" value="Hide Characteristic"/>
+      <properties key="ShowAs" value="InputField"/>
+    </currentVariables>
+    <currentVariables uuid="_bYIEEKp9Eeapl8WeJFy_DQ" name="TSHIRT_COLOR" inUse="TRUE" alias="TSHIRT_COLOR">
+      <domain uuid="_bYIEEap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bYIEE6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYIEFKp9Eeapl8WeJFy_DQ" name="WHITE" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYIEFap9Eeapl8WeJFy_DQ" name="_DisplayName" value="White"/>
+          <displayNames key="DE" value="Weiß"/>
+          <displayNames key="SAP" value="WHITE"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYJSMKp9Eeapl8WeJFy_DQ" name="RED" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYJ5QKp9Eeapl8WeJFy_DQ" name="_DisplayName" value="Red"/>
+          <displayNames key="DE" value="Rot"/>
+          <displayNames key="SAP" value="RED"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYKgUKp9Eeapl8WeJFy_DQ" name="GREEN" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYKgUap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Green"/>
+          <displayNames key="DE" value="Grün"/>
+          <displayNames key="SAP" value="GREEN"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYMVgKp9Eeapl8WeJFy_DQ" name="BLUE" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYMVgap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Blue"/>
+          <displayNames key="DE" value="Blau"/>
+          <displayNames key="SAP" value="BLUE"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYNjoKp9Eeapl8WeJFy_DQ" name="YELLOW" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYNjoap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Yellow"/>
+          <displayNames key="DE" value="Gelb"/>
+          <displayNames key="SAP" value="YELLOW"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYOxwKp9Eeapl8WeJFy_DQ" name="PINK" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYOxwap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Pink"/>
+          <displayNames key="DE" value="Pink"/>
+          <displayNames key="SAP" value="PINK"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYQm8Kp9Eeapl8WeJFy_DQ" name="FAB_HAWAII" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYQm8ap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Hawaii"/>
+          <displayNames key="DE" value="Hawaii"/>
+          <displayNames key="SAP" value="FAB_HAWAII"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYR1EKp9Eeapl8WeJFy_DQ" name="FAB_CAMO" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYR1Eap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Camouflage"/>
+          <displayNames key="DE" value="Tarnung"/>
+          <displayNames key="SAP" value="FAB_CAMO"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYTDMKp9Eeapl8WeJFy_DQ" name="FAB_JESTER" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYTDMap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Jester"/>
+          <displayNames key="DE" value="Hofnarr"/>
+          <displayNames key="SAP" value="FAB_JESTER"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYURUKp9Eeapl8WeJFy_DQ" name="FAB_SCOTT" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYURUap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Green Scottish"/>
+          <displayNames key="DE" value="Grün Scottish"/>
+          <displayNames key="SAP" value="FAB_SCOTT"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYX7sKp9Eeapl8WeJFy_DQ" name="FAB_SCOTT2" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYX7sap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Light Scottish"/>
+          <displayNames key="DE" value="Weiß Scottish"/>
+          <displayNames key="SAP" value="FAB_SCOTT2"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[WHITE, RED, GREEN, BLUE, YELLOW, PINK, FAB_HAWAII, FAB_CAMO, FAB_JESTER, FAB_SCOTT, FAB_SCOTT2]"/>
+      <properties key="Required" value="true"/>
+      <properties key="Show" value="true"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="10"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="false"/>
+      <properties key="SAP" value="TSHIRT_COLOR"/>
+      <properties key="DE" value="Farbe"/>
+      <properties key="EN" value="Color"/>
+      <properties key="DA" value="Farve"/>
+      <properties key="ShowAs" value="DropDown"/>
+    </currentVariables>
+    <currentVariables uuid="_bYhFoKp9Eeapl8WeJFy_DQ" name="TSHIRT_SIZE" inUse="TRUE" alias="TSHIRT_SIZE">
+      <domain uuid="_bYhFoap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bYhFo6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYhFpKp9Eeapl8WeJFy_DQ" name="S" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYhFpap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Small"/>
+          <displayNames key="DE" value="Klein"/>
+          <displayNames key="SAP" value="S"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYiTwKp9Eeapl8WeJFy_DQ" name="M" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYiTwap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Medium"/>
+          <displayNames key="DE" value="Medium"/>
+          <displayNames key="SAP" value="M"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYkI8Kp9Eeapl8WeJFy_DQ" name="L" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYkI8ap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Large"/>
+          <displayNames key="DE" value="Groß"/>
+          <displayNames key="SAP" value="L"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bYkwAKp9Eeapl8WeJFy_DQ" name="XL" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bYkwAap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Extra large"/>
+          <displayNames key="DE" value="Extra groß"/>
+          <displayNames key="SAP" value="XL"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[S, M, L, XL]"/>
+      <properties key="Required" value="true"/>
+      <properties key="Show" value="true"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="3"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="true"/>
+      <properties key="SAP" value="TSHIRT_SIZE"/>
+      <properties key="DE" value="Größe"/>
+      <properties key="EN" value="Size"/>
+      <properties key="DA" value="Størrelse"/>
+      <properties key="ShowAs" value="DropDown"/>
+    </currentVariables>
+    <currentVariables uuid="_bYt58Kp9Eeapl8WeJFy_DQ" name="TSHIRT_PRICE" inUse="NOT" alias="TSHIRT_PRICE">
+      <domain uuid="_bYt58ap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bYt586p9Eeapl8WeJFy_DQ" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+      <properties key="Required" value="false"/>
+      <properties key="Show" value="false"/>
+      <properties key="ReadOnly" value="true"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="26"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="true"/>
+      <properties key="Restrictable" value="false"/>
+      <properties key="ReferenceField" value="VKOND"/>
+      <properties key="ReferenceTable" value="SDCOM"/>
+      <properties key="SAP" value="TSHIRT_PRICE"/>
+      <properties key="EN" value="Variant condition"/>
+      <properties key="ShowAs" value="InputField"/>
+    </currentVariables>
+    <currentVariables uuid="_bY45EKp9Eeapl8WeJFy_DQ" name="TSHIRT_NECK" inUse="TRUE" alias="TSHIRT_NECK">
+      <domain uuid="_bY45Eap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bY45E6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_bY45FKp9Eeapl8WeJFy_DQ" name="ROUND" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bY45Fap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Round neck"/>
+          <displayNames key="DE" value="Rund-Ausschnitt"/>
+          <displayNames key="SAP" value="ROUND"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bY6uQKp9Eeapl8WeJFy_DQ" name="VNECK" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bY6uQap9Eeapl8WeJFy_DQ" name="_DisplayName" value="V-neck"/>
+          <displayNames key="DE" value="V-Ausschnitt"/>
+          <displayNames key="SAP" value="VNECK"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[ROUND, VNECK]"/>
+      <properties key="Required" value="true"/>
+      <properties key="Show" value="true"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="10"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="true"/>
+      <properties key="SAP" value="TSHIRT_NECK"/>
+      <properties key="DE" value="Hals Ausschnitt"/>
+      <properties key="EN" value="Neck"/>
+      <properties key="DA" value="Halsudskæring"/>
+      <properties key="ShowAs" value="DropDown"/>
+    </currentVariables>
+    <currentVariables uuid="_bZD4MKp9Eeapl8WeJFy_DQ" name="TSHIRT_NECK_COLOR" inUse="TRUE" alias="TSHIRT_NECK_COLOR">
+      <domain uuid="_bZD4Map9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bZD4M6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZD4NKp9Eeapl8WeJFy_DQ" name="WHITE" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZD4Nap9Eeapl8WeJFy_DQ" name="_DisplayName" value="White"/>
+          <displayNames key="DE" value="Weiß"/>
+          <displayNames key="SAP" value="WHITE"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZFGUKp9Eeapl8WeJFy_DQ" name="BLUE" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZFGUap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Blue"/>
+          <displayNames key="DE" value="Blau"/>
+          <displayNames key="SAP" value="BLUE"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZGUcKp9Eeapl8WeJFy_DQ" name="RED" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZGUcap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Red"/>
+          <displayNames key="DE" value="Rot"/>
+          <displayNames key="SAP" value="RED"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZHikKp9Eeapl8WeJFy_DQ" name="ORANGE" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZHikap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Orange"/>
+          <displayNames key="DE" value="Orange"/>
+          <displayNames key="SAP" value="ORANGE"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[WHITE, BLUE, RED, ORANGE]"/>
+      <properties key="Required" value="true"/>
+      <properties key="Show" value="true"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="10"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="true"/>
+      <properties key="SAP" value="TSHIRT_NECK_COLOR"/>
+      <properties key="DE" value="Hals Bündchen"/>
+      <properties key="EN" value="Neck color"/>
+      <properties key="DA" value="Halskantfarve"/>
+      <properties key="ShowAs" value="DropDown"/>
+    </currentVariables>
+    <currentVariables uuid="_bZQsgKp9Eeapl8WeJFy_DQ" name="TSHIRT_SLEEVES" inUse="TRUE" alias="TSHIRT_SLEEVES">
+      <domain uuid="_bZQsgap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bZQsg6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZQshKp9Eeapl8WeJFy_DQ" name="NONE" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZQshap9Eeapl8WeJFy_DQ" name="_DisplayName" value="No sleeves"/>
+          <displayNames key="DE" value="Keine Ärmel"/>
+          <displayNames key="SAP" value="NONE"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZShsKp9Eeapl8WeJFy_DQ" name="SHORT" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZShsap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Short sleeves"/>
+          <displayNames key="DE" value="Kurze Ärmel"/>
+          <displayNames key="SAP" value="SHORT"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[NONE, SHORT]"/>
+      <properties key="Required" value="true"/>
+      <properties key="Show" value="true"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="10"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="true"/>
+      <properties key="SAP" value="TSHIRT_SLEEVES"/>
+      <properties key="DE" value="Ärmel"/>
+      <properties key="EN" value="Sleeves"/>
+      <properties key="DA" value="Ærmer"/>
+      <properties key="ShowAs" value="DropDown"/>
+    </currentVariables>
+    <currentVariables uuid="_bZfWAKp9Eeapl8WeJFy_DQ" name="TSHIRT_SLEEVES_COLOR" inUse="TRUE" alias="TSHIRT_SLEEVES_COLOR">
+      <domain uuid="_bZfWAap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bZfWA6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZfWBKp9Eeapl8WeJFy_DQ" name="WHITE" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZfWBap9Eeapl8WeJFy_DQ" name="_DisplayName" value="White"/>
+          <displayNames key="DE" value="Weiß"/>
+          <displayNames key="SAP" value="WHITE"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZhLMKp9Eeapl8WeJFy_DQ" name="RED" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZhLMap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Red"/>
+          <displayNames key="DE" value="Rot"/>
+          <displayNames key="SAP" value="RED"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZiZUKp9Eeapl8WeJFy_DQ" name="BLUE" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZiZUap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Blue"/>
+          <displayNames key="DE" value="Blau"/>
+          <displayNames key="SAP" value="BLUE"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZkOgKp9Eeapl8WeJFy_DQ" name="ORANGE" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZkOgap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Orange"/>
+          <displayNames key="DE" value="Orange"/>
+          <displayNames key="SAP" value="ORANGE"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZlcoKp9Eeapl8WeJFy_DQ" name="FAB_HAWAII" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZlcoap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Hawaii"/>
+          <displayNames key="DE" value="Hawaii"/>
+          <displayNames key="SAP" value="FAB_HAWAII"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZmqwKp9Eeapl8WeJFy_DQ" name="FAB_CAMO" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZmqwap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Camouflage"/>
+          <displayNames key="DE" value="Tarnung"/>
+          <displayNames key="SAP" value="FAB_CAMO"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZn44Kp9Eeapl8WeJFy_DQ" name="FAB_JESTER" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZn44ap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Jester"/>
+          <displayNames key="DE" value="Hofnarr"/>
+          <displayNames key="SAP" value="FAB_JESTER"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZpHAKp9Eeapl8WeJFy_DQ" name="FAB_SCOTT" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZpHAap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Green Scottish"/>
+          <displayNames key="DE" value="Grün Scottish"/>
+          <displayNames key="SAP" value="FAB_SCOTT"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZqVIKp9Eeapl8WeJFy_DQ" name="FAB_SCOTT2" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZqVIap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Light Scottish"/>
+          <displayNames key="DE" value="Weiß Scottish"/>
+          <displayNames key="SAP" value="FAB_SCOTT2"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[WHITE, RED, BLUE, ORANGE, FAB_HAWAII, FAB_CAMO, FAB_JESTER, FAB_SCOTT, FAB_SCOTT2]"/>
+      <properties key="Required" value="true"/>
+      <properties key="Show" value="true"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="10"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="true"/>
+      <properties key="SAP" value="TSHIRT_SLEEVES_COLOR"/>
+      <properties key="DE" value="Ärmelfarbe"/>
+      <properties key="EN" value="Sleeve color"/>
+      <properties key="DA" value="Ærmefarve"/>
+      <properties key="ShowAs" value="DropDown"/>
+    </currentVariables>
+    <currentVariables uuid="_bZzfEKp9Eeapl8WeJFy_DQ" name="TSHIRT_OPTIONS" inUse="NOT" alias="TSHIRT_OPTIONS">
+      <domain uuid="_bZzfEap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bZzfE6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZzfFKp9Eeapl8WeJFy_DQ" name="POCKET" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZzfFap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Pocket"/>
+          <displayNames key="DE" value="Tasche"/>
+          <displayNames key="SAP" value="POCKET"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZ2iYKp9Eeapl8WeJFy_DQ" name="BARCODE" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZ2iYap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Barcode"/>
+          <displayNames key="DE" value="Barcode"/>
+          <displayNames key="SAP" value="BARCODE"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_bZ4XkKp9Eeapl8WeJFy_DQ" name="LOGO" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_bZ4Xkap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Logo print"/>
+          <displayNames key="DE" value="Logo Druck"/>
+          <displayNames key="SAP" value="LOGO"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[POCKET, BARCODE, LOGO]"/>
+      <properties key="Required" value="false"/>
+      <properties key="Show" value="true"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="10"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="false"/>
+      <properties key="SAP" value="TSHIRT_OPTIONS"/>
+      <properties key="DE" value="Optionen"/>
+      <properties key="EN" value="Options"/>
+      <properties key="DA" value="Tilbehør"/>
+      <properties key="ShowAs" value="DropDown"/>
+    </currentVariables>
+    <currentVariables uuid="_baKEYKp9Eeapl8WeJFy_DQ" name="DRAWING_LAYERS" inUse="NOT" alias="DRAWING_LAYERS">
+      <domain uuid="_baKEYap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_baKEY6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+      <properties key="Required" value="false"/>
+      <properties key="Show" value="false"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="30"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="false"/>
+      <properties key="SAP" value="DRAWING_LAYERS"/>
+      <properties key="EN" value="Drawing layers"/>
+      <properties key="ShowAs" value="InputField"/>
+    </currentVariables>
+    <currentVariables uuid="_baRZIKp9Eeapl8WeJFy_DQ" name="TSHIRT_RINGER_COLOR" inUse="TRUE" alias="TSHIRT_RINGER_COLOR">
+      <domain uuid="_baRZIap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_baRZI6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_baSAMKp9Eeapl8WeJFy_DQ" name="WHITE" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_baSAMap9Eeapl8WeJFy_DQ" name="_DisplayName" value="White"/>
+          <displayNames key="DE" value="Weiß"/>
+          <displayNames key="SAP" value="WHITE"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_baTOUKp9Eeapl8WeJFy_DQ" name="BLUE" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_baTOUap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Blue"/>
+          <displayNames key="DE" value="Blau"/>
+          <displayNames key="SAP" value="BLUE"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_baUccKp9Eeapl8WeJFy_DQ" name="RED" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_baUccap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Red"/>
+          <displayNames key="DE" value="Rot"/>
+          <displayNames key="SAP" value="RED"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_baVqkKp9Eeapl8WeJFy_DQ" name="ORANGE" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_baVqkap9Eeapl8WeJFy_DQ" name="_DisplayName" value="Orange"/>
+          <displayNames key="DE" value="Orange"/>
+          <displayNames key="SAP" value="ORANGE"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[WHITE, BLUE, RED, ORANGE]"/>
+      <properties key="Required" value="true"/>
+      <properties key="Show" value="true"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="10"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="true"/>
+      <properties key="SAP" value="TSHIRT_RINGER_COLOR"/>
+      <properties key="DE" value="Ärmelbündchen"/>
+      <properties key="EN" value="Ringer color"/>
+      <properties key="DA" value="Ærmekantfarve"/>
+      <properties key="ShowAs" value="DropDown"/>
+    </currentVariables>
+    <currentVariables uuid="_bafbkKp9Eeapl8WeJFy_DQ" name="TSHIRT_BODY_F" inUse="TRUE" alias="TSHIRT_BODY_F">
+      <domain uuid="_bafbkap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bafbk6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+      <properties key="Required" value="false"/>
+      <properties key="Show" value="false"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="30"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="false"/>
+      <properties key="SAP" value="TSHIRT_BODY_F"/>
+      <properties key="EN" value="Fill color of tshirt"/>
+      <properties key="ShowAs" value="InputField"/>
+    </currentVariables>
+    <currentVariables uuid="_bausIKp9Eeapl8WeJFy_DQ" name="TSHIRT_BODYSH_F" inUse="TRUE" alias="TSHIRT_BODYSH_F">
+      <domain uuid="_bausIap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bausI6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+      <properties key="Required" value="false"/>
+      <properties key="Show" value="false"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="30"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="false"/>
+      <properties key="SAP" value="TSHIRT_BODYSH_F"/>
+      <properties key="EN" value="tshirt body shadow fill color"/>
+      <properties key="ShowAs" value="InputField"/>
+    </currentVariables>
+    <currentVariables uuid="_ba2A4Kp9Eeapl8WeJFy_DQ" name="TSHIRT_NECK_F" inUse="TRUE" alias="TSHIRT_NECK_F">
+      <domain uuid="_ba2A4ap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_ba2A46p9Eeapl8WeJFy_DQ" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+      <properties key="Required" value="false"/>
+      <properties key="Show" value="false"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="30"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="false"/>
+      <properties key="SAP" value="TSHIRT_NECK_F"/>
+      <properties key="EN" value="tshirt neck fill"/>
+      <properties key="ShowAs" value="InputField"/>
+    </currentVariables>
+    <currentVariables uuid="_ba8HgKp9Eeapl8WeJFy_DQ" name="TSHIRT_NECKSH_F" inUse="TRUE" alias="TSHIRT_NECKSH_F">
+      <domain uuid="_ba8Hgap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_ba8Hg6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+      <properties key="Required" value="false"/>
+      <properties key="Show" value="false"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="30"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="false"/>
+      <properties key="SAP" value="TSHIRT_NECKSH_F"/>
+      <properties key="EN" value="tshirt neck shadow fill"/>
+      <properties key="ShowAs" value="InputField"/>
+    </currentVariables>
+    <currentVariables uuid="_bbC1MKp9Eeapl8WeJFy_DQ" name="TSHIRT_SLV_F" inUse="TRUE" alias="TSHIRT_SLV_F">
+      <domain uuid="_bbC1Map9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bbC1M6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+      <properties key="Required" value="false"/>
+      <properties key="Show" value="false"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="30"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="false"/>
+      <properties key="SAP" value="TSHIRT_SLV_F"/>
+      <properties key="EN" value="tshirt sleeve fill color"/>
+      <properties key="ShowAs" value="InputField"/>
+    </currentVariables>
+    <currentVariables uuid="_bbMmMKp9Eeapl8WeJFy_DQ" name="TSHIRT_SLVSH_F" inUse="TRUE" alias="TSHIRT_SLVSH_F">
+      <domain uuid="_bbMmMap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bbMmM6p9Eeapl8WeJFy_DQ" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+      <properties key="Required" value="false"/>
+      <properties key="Show" value="false"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="30"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="false"/>
+      <properties key="SAP" value="TSHIRT_SLVSH_F"/>
+      <properties key="EN" value="tshirt sleeve shadow fill"/>
+      <properties key="ShowAs" value="InputField"/>
+    </currentVariables>
+    <currentVariables uuid="_bbT68Kp9Eeapl8WeJFy_DQ" name="TSHIRT_RINGER_F" inUse="TRUE" alias="TSHIRT_RINGER_F">
+      <domain uuid="_bbT68ap9Eeapl8WeJFy_DQ" name="local" visibility="300">
+        <typeSet uuid="_bbT686p9Eeapl8WeJFy_DQ" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+      <properties key="Required" value="false"/>
+      <properties key="Show" value="false"/>
+      <properties key="ReadOnly" value="false"/>
+      <properties key="DecimalPlace" value="0"/>
+      <properties key="NumberOfChars" value="30"/>
+      <properties key="Format" value="F0"/>
+      <properties key="NegativeValuesAllowed" value="false"/>
+      <properties key="CaseSensitive" value="false"/>
+      <properties key="Restrictable" value="false"/>
+      <properties key="SAP" value="TSHIRT_RINGER_F"/>
+      <properties key="EN" value="tshirt ringer fill color"/>
+      <properties key="ShowAs" value="InputField"/>
+    </currentVariables>
+    <languages>DA</languages>
+    <languages>DE</languages>
+    <languages>EN</languages>
+    <languages>SAP</languages>
+  </rulesVT>
 </comp:Component>
