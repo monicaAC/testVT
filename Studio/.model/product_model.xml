@@ -12,11 +12,11 @@
     <values uuid="_41X40EluEeSo87hK2eA7dQ" name="red" editable="false" visibility="300"/>
     <values uuid="_5dqA0EluEeSo87hK2eA7dQ" name="blue" editable="false" visibility="300"/>
     <values uuid="_6ajt8EluEeSo87hK2eA7dQ" name="green" editable="false" visibility="300"/>
-    <variables xsi:type="comp:DeclaredVariable" href="components/_q8cPEFc5EeWo-40Qyxiobw.xml#_f62sUKsVEeapl8WeJFy_DQ"/>
   </domains>
   <domains uuid="_uD2AQKsVEeapl8WeJFy_DQ" name="numbers1">
     <typeSet uuid="_uD2AQqsVEeapl8WeJFy_DQ" bitSet="458767"/>
     <values uuid="_usi_AKsVEeapl8WeJFy_DQ" name="1" editable="false" visibility="300"/>
+    <variables xsi:type="comp:DeclaredVariable" href="components/_q8cPEFc5EeWo-40Qyxiobw.xml#_f62sUKsVEeapl8WeJFy_DQ"/>
   </domains>
   <domains uuid="_xffnwKsVEeapl8WeJFy_DQ" name="numbers2">
     <typeSet uuid="_xffnwqsVEeapl8WeJFy_DQ" bitSet="458767"/>

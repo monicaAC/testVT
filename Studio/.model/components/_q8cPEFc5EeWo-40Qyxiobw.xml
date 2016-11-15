@@ -14,7 +14,7 @@
     <domain uuid="_f62sUasVEeapl8WeJFy_DQ" name="local" visibility="300">
       <typeSet uuid="_f62sUqsVEeapl8WeJFy_DQ" bitSet="393231"/>
     </domain>
-    <domainGlobal href="../product_model.xml#_2ZqEUEluEeSo87hK2eA7dQ"/>
+    <domainGlobal href="../product_model.xml#_uD2AQKsVEeapl8WeJFy_DQ"/>
   </variables>
   <cursorTwoD uuid="_5hDdIFc7EeWo-40Qyxiobw" name="Cursor3" twoDElementsColor="_c3-j4Fc7EeWo-40Qyxiobw _f9pUUFc7EeWo-40Qyxiobw">
     <onColor href="../product_model.xml#N65557"/>
