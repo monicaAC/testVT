@@ -14,6 +14,18 @@
     <values uuid="_6ajt8EluEeSo87hK2eA7dQ" name="green" editable="false" visibility="300"/>
     <variables xsi:type="comp:DeclaredVariable" href="components/_q8cPEFc5EeWo-40Qyxiobw.xml#_f62sUKsVEeapl8WeJFy_DQ"/>
   </domains>
+  <domains uuid="_uD2AQKsVEeapl8WeJFy_DQ" name="numbers1">
+    <typeSet uuid="_uD2AQqsVEeapl8WeJFy_DQ" bitSet="458767"/>
+    <values uuid="_usi_AKsVEeapl8WeJFy_DQ" name="1" editable="false" visibility="300"/>
+    <values uuid="_u0idYKsVEeapl8WeJFy_DQ" name="2" editable="false" visibility="300"/>
+    <values uuid="_u82r4KsVEeapl8WeJFy_DQ" name="3" editable="false" visibility="300"/>
+  </domains>
+  <domains uuid="_xffnwKsVEeapl8WeJFy_DQ" name="numbers2">
+    <typeSet uuid="_xffnwqsVEeapl8WeJFy_DQ" bitSet="458767"/>
+    <values uuid="_yzMrUKsVEeapl8WeJFy_DQ" name="4" editable="false" visibility="300"/>
+    <values uuid="_y5A_cKsVEeapl8WeJFy_DQ" name="5" editable="false" visibility="300"/>
+    <values uuid="_zA3T4KsVEeapl8WeJFy_DQ" name="6" editable="false" visibility="300"/>
+  </domains>
   <features deletable="false" uuid="N65557" name="DefaultCursorColor" color="(255,151,0,255)"/>
   <features deletable="false" uuid="N65562" name="DefaultTransparent" color="(0,0,0,0)"/>
   <features deletable="false" uuid="N65567" name="DefaultBgColor" color="(255,255,255,255)"/>
