@@ -350,6 +350,9 @@
           <facets xsi:type="appl:PropertyFacet" uuid="_5xN7AaqDEeapl8WeJFy_DQ" name="_DisplayName" value="4"/>
           <displayNames key="SAP" value="4"/>
         </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_iwEwgKsWEeapl8WeJFy_DQ" name="2" editable="false"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_i9EqsKsWEeapl8WeJFy_DQ" name="3" editable="false"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_jJIJsKsWEeapl8WeJFy_DQ" name="4" editable="false"/>
       </domain>
       <properties key="VT type" value="Float"/>
       <properties key="Build type" value="float"/>
