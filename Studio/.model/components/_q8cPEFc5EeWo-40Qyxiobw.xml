@@ -10,6 +10,12 @@
       <typeSet uuid="_GC-J0qTqEea8d6P1JTl01w" bitSet="10"/>
     </domain>
   </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_f62sUKsVEeapl8WeJFy_DQ" name="Variable" visibility="800">
+    <domain uuid="_f62sUasVEeapl8WeJFy_DQ" name="local" visibility="300">
+      <typeSet uuid="_f62sUqsVEeapl8WeJFy_DQ" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_2ZqEUEluEeSo87hK2eA7dQ"/>
+  </variables>
   <cursorTwoD uuid="_5hDdIFc7EeWo-40Qyxiobw" name="Cursor3" twoDElementsColor="_c3-j4Fc7EeWo-40Qyxiobw _f9pUUFc7EeWo-40Qyxiobw">
     <onColor href="../product_model.xml#N65557"/>
   </cursorTwoD>
